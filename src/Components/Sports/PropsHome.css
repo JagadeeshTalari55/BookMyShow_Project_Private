@@ -1,0 +1,14 @@
+.parent .cards img {
+  width: 200px;
+}
+
+.parent .cards h4 {
+  width: 250px;
+}
+.parent .cards .firstp {
+  font-weight: 500;
+}
+
+.parent .cards p {
+  width: 200px;
+}

@@ -1,0 +1,26 @@
+.bookmyshow{
+
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+   
+   
+   }
+   
+   .bookmyshow  img{
+     width: 300px;
+     border-radius: 20px;
+   }
+   
+   img:hover{
+   
+   scale: 5px;
+   }
+   
+   h2{
+     width: 300px;
+   }
+   
+   p{
+     font-size: 17px;
+     color: gray;
+   }

@@ -1,0 +1,11 @@
+.f-picture p {
+  color: gray;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.f-row {
+  margin: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
