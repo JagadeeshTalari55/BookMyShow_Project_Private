@@ -9,3 +9,17 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.giftCardBtns {
+  width: 80px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+
+.giftCardBtns:hover,
+.giftBtnActive {
+  background-color: red;
+  color: white;
+  border: 1px solid transparent;
+}

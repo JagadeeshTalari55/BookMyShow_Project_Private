@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.buyTicketsPage {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  font-size: 13px;
+  color: #807f7f;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.dotCircle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* ------------------- */
+
+.MovieName {
+  background-color: #333545;
+  color: #fff;
+  padding: 3rem 0rem 1.5rem 0rem;
+}
+
+.MovieName h1 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.MovieName h1:hover {
+  text-decoration: underline;
+}
+.movieContentWrapper {
+  width: 80vw;
+  margin: auto;
+}
+
+.movieCategory button {
+  padding: 3px 7px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1.25px solid #a4a4a4;
+  color: #a4a4a4;
+  font-size: 11px;
+  width: fit-content;
+  height: fit-content;
+  text-transform: uppercase;
+  margin-right: 0.5rem;
+}
+
+.buyTicketsContent {
+  background-color: #f2f2f2;
+}
+
+.buyTicketsWrapper {
+  width: 80vw;
+  height: 50vh;
+  margin: 10px auto;
+  background-color: #fff;
+}
+
+/* 
+  ================================
+          Movie Theater
+  ================================
+  
+  */
+
+.movieTheater {
+  border-top: 1px solid #a4a4a42f;
+  display: flex;
+  padding: 13px 20px;
+}
+
+/* movie theater content section */
+
+.movieTheaterDetails {
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.movieTheaterContent {
+  width: 360px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.movieTheaterContent > div {
+  display: flex;
+}
+
+.infoIcon ~ span {
+  font-size: 10px;
+  display: inline-block;
+  line-height: 15px;
+  margin-left: 5px;
+}
+
+.movieTheaterName {
+  color: black;
+  font-weight: 600;
+  font-style: 12px;
+}
+
+.movieTheaterName:hover {
+  text-decoration: underline;
+}
+
+.movieTheaterFacilities {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.movieTheaterFacilities > div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.movieFacilityIcon {
+  font-size: 20px;
+}
+
+.movieTheaterFacilities > div > span {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.mTicket {
+  color: #4abd5d;
+}
+
+.foodBeverage {
+  color: #ffbf65;
+}
+
+.heartSymbol {
+  font-size: 18px;
+  color: #bebebe;
+  transition: color 0.1s ease-in-out;
+}
+
+.heartSymbol:hover,
+.redInfo {
+  color: #f86f6f;
+}
+
+.infoIcon {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* movie theater timing btn section */
+
+.movieTheaterTimingBtn-Section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 0.8rem;
+  padding: 0px 10px;
+}
+
+.TheaterTimingBtns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 12px;
+}
+
+.TheaterTimingBtns button {
+  padding: 10px 20px;
+  min-width: fit-content;
+  max-width: 110px;
+  height: fit-content;
+  border-radius: 5px;
+  border: 1.25px solid #a4a4a4;
+  background-color: transparent;
+  color: #4abd5d;
+  position: relative;
+}
+
+.TheaterTimingBtns button .tooltiptext {
+  visibility: hidden;
+  background-color: #fcfcfc;
+  filter: drop-shadow(0px 0px 0.2rem #68686880);
+  color: #000;
+  text-align: center;
+  padding: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 135%;
+  left: 50%;
+  margin-left: -110%;
+  opacity: 0;
+  transition: opacity 0.3s;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.TheaterTimingBtns button .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #f8f6f6 transparent transparent transparent;
+}
+
+.TheaterTimingBtns button:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltiptext > div {
+  width: 75px;
+}
+
+.tooltiptext > div > span {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.tooltiptext > div > span:nth-child(1) {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.tooltiptext > div > span:nth-child(2) {
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.tooltiptext > div > span:nth-child(3) {
+  font-size: 11px;
+}
+
+/* ------------------------------------- */
+
+.yellowDot {
+  background-color: #ffc610;
+}
+
+.icons {
+  font-size: 1.25em;
+  color: #ffbf65;
+}
