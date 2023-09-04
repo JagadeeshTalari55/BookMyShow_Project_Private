@@ -228,12 +228,20 @@ const giftCards = [
   {
     id: 16,
     gift: "https://in.bmscdn.com/gv/gift_my_show_18552019025553_480x295.jpg",
+<<<<<<< HEAD
     category: "Generic",
+=======
+    category: "Occasion",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
     id: 17,
     gift: "https://in.bmscdn.com/gv/gift_my_show_18082019040833_480x295.jpg",
+<<<<<<< HEAD
     category: "Generic",
+=======
+    category: "Occasion",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
     id: 18,
@@ -256,21 +264,38 @@ const giftCards = [
     category: "Occasion",
   },
   {
+<<<<<<< HEAD
     id: 22,
     gift: "https://in.bmscdn.com/gv/gift_my_show_18512019025105_480x295.jpg",
     category: "Occasion",
+=======
+    id: 21,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_18512019025105_480x295.jpg",
+    category: "Generic",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
+<<<<<<< HEAD
     id: 23,
     gift: "https://in.bmscdn.com/gv/gift_my_show_18572019025701_480x295.jpg",
     category: "Occasion",
+=======
+    id: 22,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_18572019025701_480x295.jpg",
+    category: "Generic",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
+<<<<<<< HEAD
     id: 24,
+=======
+    id: 23,
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
     gift: "https://in.bmscdn.com/gv/gift_my_show_05542019115440_480x295.jpg",
     category: "Generic",
   },
   {
+<<<<<<< HEAD
     id: 25,
     gift: "https://in.bmscdn.com/vouchagram/combo/titan_and_bms_combo_08122018011247.jpg",
     category: "combos",
@@ -314,18 +339,82 @@ const giftCards = [
     id: 33,
     gift: "https://in.bmscdn.com/gv/gift_my_show_30162019031622_480x295.jpg",
     category: "occasion",
+=======
+    id: 24,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_30332019123339_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 25,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_30222019022237_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 26,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_30192019031956_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 27,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_30482019034817_480x295.jpg",
+    category: "Generic",
   },
   {
+    id: 28,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_05572019115712_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 29,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_16092019040918_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 30,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_06532019115311_480x295.jpg",
+    category: "Generic",
+  },
+
+  {
+    id: 31,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_22202019042033_480x295.jpg",
+    category: "Generic",
+  },
+  {
+    id: 32,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_30162019031622_480x295.jpg",
+    category: "Generic",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
+  },
+  {
+<<<<<<< HEAD
     id: 34,
     gift: "https://in.bmscdn.com/vouchagram/combo/bata_and_bms_combo_08152018011512.jpg",
     category: "combos",
+=======
+    id: 33,
+    gift: "https://in.bmscdn.com/gv/gift_my_show_06572019115735_480x295.jpg",
+    category: "Generic",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
+<<<<<<< HEAD
     id: 35,
     gift: "https://in.bmscdn.com/vouchagram/combo/united_colors_of_benetton_and_bms_combo_08432018124326.jpg",
     category: "combos",
+=======
+    id: 34,
+    gift: "https://in-aps.bmscdn.com/gv/gift_my_show_04402020084029_480x295.jpg",
+    category: "Generic",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
   {
+<<<<<<< HEAD
     id: 36,
     gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_the_beer_cafe_combo_20302018053047.jpg",
     category: "combos",
@@ -349,10 +438,38 @@ const giftCards = [
     id: 40,
     gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_levis_combo_07132022031353.jpg",
     category: "combos",
+=======
+    id: 35,
+    gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_the_beer_cafe_combo_20302018053047.jpg",
+    category: "Combos",
+  },
+  {
+    id: 36,
+    gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_tgi_fridays_combo_20042018040430.jpg",
+    category: "Combos",
+  },
+  {
+    id: 37,
+    gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_speciality_restaurants_combo_20342018043406.jpg",
+    category: "Combos",
+  },
+  {
+    id: 38,
+    gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_vero_moda_combo_08352018123514.jpg",
+    category: "Combos",
+  },
+  {
+    id: 39,
+    gift: "https://in.bmscdn.com/vouchagram/combo/bms_and_levis_combo_07132022031353.jpg",
+    category: "Combos",
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   },
 ];
 
+const initialSelected = [false, false, false, false, false];
+
 function GiftCards() {
+<<<<<<< HEAD
   const [activeBtn, setActiveBtn] = useState([
     true,
     false,
@@ -383,6 +500,31 @@ function GiftCards() {
     const a = giftCards.filter((ele) => ele.category == x);
 
     setNewGiftCardsArray(a);
+=======
+  const [giftCardsArray, setGiftCardsArray] = useState(giftCards);
+  const [allSelectedOptions, setAllSelectedOptions] = useState(initialSelected);
+
+  function handleClickSelected(index) {
+    const newAllSelectedOptions = allSelectedOptions.map((ele, i) => {
+      if (i == index) {
+        return !ele;
+      } else {
+        return ele;
+      }
+    });
+    setAllSelectedOptions(newAllSelectedOptions);
+  }
+
+  function newArray(text, index) {
+    let newx = []
+    allSelectedOptions.map((bol, i) => { 
+    if(bol){
+      newx = newx + giftCards.filter((x) => x.category === text);
+    }
+  })
+    
+    setGiftCardsArray(newx);
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
   }
 
   return (
@@ -394,6 +536,7 @@ function GiftCards() {
           style={{ width: "95%", margin: "25px" }}
         />
         <p>Pick a card from one of our themes</p>
+<<<<<<< HEAD
 
         <section className="btns-Section">
           <button
@@ -403,50 +546,86 @@ function GiftCards() {
             onClick={() => {
               mulitpleStates(0); //btn active or not
               setNewGiftCardsArray(giftCards);
+=======
+        <section className="btnsSection">
+          <button
+            className={allSelectedOptions[0] ? `btnTag btnTagActive` : `btnTag`}
+            onClick={() => {
+              handleClickSelected(0);
+              setGiftCardsArray(giftCards);
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
             }}
           >
             All
           </button>
           <button
+<<<<<<< HEAD
             className={
               activeBtn[1] ? `giftCardBtns giftBtnActive` : `giftCardBtns  `
             }
             onClick={() => {
               mulitpleStates(1);
               filterFunction("Generic");
+=======
+            className={allSelectedOptions[1] ? `btnTag btnTagActive` : `btnTag`}
+            onClick={() => {
+              handleClickSelected(1);
+              newArray("Generic");
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
             }}
           >
             Generic
           </button>
           <button
+<<<<<<< HEAD
             className={
               activeBtn[2] ? `giftCardBtns giftBtnActive` : `giftCardBtns  `
             }
             onClick={() => {
               mulitpleStates(2);
               filterFunction("Occasion");
+=======
+            className={allSelectedOptions[2] ? `btnTag btnTagActive` : `btnTag`}
+            onClick={() => {
+              handleClickSelected(2);
+              newArray("Occasion");
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
             }}
           >
             Occasion
           </button>
           <button
+<<<<<<< HEAD
             className={
               activeBtn[3] ? `giftCardBtns giftBtnActive` : `giftCardBtns  `
             }
             onClick={() => {
               mulitpleStates(3);
               filterFunction("Festival");
+=======
+            className={allSelectedOptions[3] ? `btnTag btnTagActive` : `btnTag`}
+            onClick={() => {
+              handleClickSelected(3);
+              newArray("Festival");
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
             }}
           >
             Festival
           </button>
           <button
+<<<<<<< HEAD
             className={
               activeBtn[4] ? `giftCardBtns giftBtnActive` : `giftCardBtns  `
             }
             onClick={() => {
               mulitpleStates(4);
               filterFunction("combos");
+=======
+            className={allSelectedOptions[4] ? `btnTag btnTagActive` : `btnTag`}
+            onClick={() => {
+              handleClickSelected(4);
+              newArray("Combos");
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
             }}
           >
             Combos
@@ -454,8 +633,13 @@ function GiftCards() {
         </section>
       </div>
       <div className="f-row">
+<<<<<<< HEAD
         {newGiftCardsArray.map((giftcd) => {
           return <Gcard gtcard={giftcd.gift}></Gcard>;
+=======
+        {giftCardsArray.map((giftcd, i) => {
+          return <Gcard key={i} gtcard={giftcd.gift}></Gcard>;
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
         })}
       </div>
     </div>

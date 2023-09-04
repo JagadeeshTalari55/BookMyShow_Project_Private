@@ -10,6 +10,7 @@
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
 .giftCardBtns {
   width: 80px;
   padding: 5px 12px;
@@ -23,3 +24,27 @@
   color: white;
   border: 1px solid transparent;
 }
+=======
+.btnTag {
+  width: fit-content;
+  height: 30px;
+  border: 1px solid grey;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.btnTag:hover {
+  background-color: #eb4e62;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.btnsSection {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 20px 0px;
+}
+>>>>>>> a705d367c818a207f2b2aef593bbbd81450b6a53
