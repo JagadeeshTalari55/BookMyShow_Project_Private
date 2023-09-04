@@ -15,6 +15,9 @@ import Activities from "./Components/Activities/Activities";
 import Sports from "./Components/Sports/Sports";
 import Plays from "./Components/Plays/Plays";
 import Corporate from "./Components/Corporate/Corporate";
+import Page1 from "./Components/Page1";
+import BuyTickets from "./Components/BuyTickets";
+import { movietheaters } from "./Utils/BuyTicketsData";
 
 function App() {
   return (
@@ -34,12 +37,31 @@ function App() {
           <Route path="/sports" element={<Sports></Sports>}></Route>
           <Route path="/plays" element={<Plays></Plays>}></Route>
           <Route path="/Corporates" element={<Corporate></Corporate>}></Route>
+          <Route path="/pages" element={<Page1></Page1>}></Route>
+          <Route
+            path="/jailerTickets"
+            element={
+              <BuyTickets
+                movieName="Jailer"
+                movieTicketsArray={movietheaters.JailerTelugu_2D_Theaters}
+              ></BuyTickets>
+            }
+          ></Route>
+          <Route
+            path="/jawanTickets"
+            element={
+              <BuyTickets
+                movieName="Jawan"
+                movieTicketsArray={movietheaters.JawanHindi_2D_Theaters}
+              ></BuyTickets>
+            }
+          ></Route>
           <Route
             path="/ListYourShow"
             element={<ListYourShow></ListYourShow>}
           ></Route>
         </Routes>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );

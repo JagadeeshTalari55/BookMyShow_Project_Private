@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Movies.css";
+import { Link } from "react-router-dom";
 
 const MoviesData = [
   {
@@ -16,6 +17,7 @@ const MoviesData = [
     title: "Jailer",
     certificate: "UA",
     languages: "Tamil , Malayalam , Kannada , Telugu , Hindi",
+    route: "/jailerTickets",
   },
   {
     imageLink:
@@ -95,6 +97,7 @@ const MoviesData = [
     title: "Jailer (Malayalam)",
     certificate: "UA",
     languages: "Malayalam",
+    route: "/jailerTickets",
   },
 
   {
@@ -125,12 +128,14 @@ function Movies() {
     <div className="bookmyshow">
       {MoviesData.map((x) => {
         return (
-          <div>
-            <img src={x.imageLink} alt="" />
-            <h2>{x.title}</h2>
-            <p>{x.certificate}</p>
-            <p>{x.languages}</p>
-          </div>
+          <Link to={x.route}>
+            <div>
+              <img src={x.imageLink} alt="" />
+              <h2>{x.title}</h2>
+              <p>{x.certificate}</p>
+              <p>{x.languages}</p>
+            </div>
+          </Link>
         );
       })}
     </div>
